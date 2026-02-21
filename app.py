@@ -88,5 +88,6 @@ def notebook():
 
 if __name__ == "__main__":
     # Enable debug for easier local development; you can turn this off in production.
-    app.run(debug=True)
+    # app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000)
 
